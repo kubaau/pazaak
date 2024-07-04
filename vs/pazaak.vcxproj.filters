@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\PlayerHuman.cpp" />
+    <ClCompile Include="..\src\PlayerAI.cpp" />
+    <ClCompile Include="..\src\Random.cpp" />
+    <ClCompile Include="..\src\GameState.cpp" />
+    <ClCompile Include="..\src\OutputOperators.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Game.hpp" />
+    <ClInclude Include="..\src\Player.hpp" />
+    <ClInclude Include="..\src\Card.hpp" />
+    <ClInclude Include="..\src\PlayerAI.hpp" />
+    <ClInclude Include="..\src\PlayerHuman.hpp" />
+    <ClInclude Include="..\src\Random.hpp" />
+    <ClInclude Include="..\src\Move.hpp" />
+    <ClInclude Include="..\src\GameState.hpp" />
+    <ClInclude Include="..\src\Logging.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\cmake\CMakeLists.txt" />
+  </ItemGroup>
+</Project>
